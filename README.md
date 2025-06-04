@@ -116,27 +116,6 @@ predictions = model.predict(new_images)
 predicted_classes = np.argmax(predictions, axis=1)
 ```
 
-## File Structure
-
-```
-alzheimer-detection/
-├── README.md
-├── requirements.txt
-├── alzheimer_detection.py
-├── alzheimer_model.h5
-└── data/
-    └── Combined Dataset/
-        ├── train/
-        │   ├── Mild Impairment/
-        │   ├── Moderate Impairment/
-        │   ├── No Impairment/
-        │   └── Alzheimer/
-        └── test/
-            ├── Mild Impairment/
-            ├── Moderate Impairment/
-            ├── No Impairment/
-            └── Alzheimer/
-```
 
 ## Key Features
 
