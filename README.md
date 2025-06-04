@@ -60,7 +60,7 @@ kagglehub
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/vaibhav-0310/alzheimer-s-disease-detection-using-cnn.git
 cd alzheimer-detection
 ```
 
